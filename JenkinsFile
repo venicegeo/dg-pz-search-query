@@ -22,7 +22,7 @@ node {
     ])
     sh """
       ${mvn}/bin/mvn clean package -U 
-      cp target/piazza-search-query-1.0.0.jar ${root}/pz-search-query.jar
+      cp target/pz-search-query-1.0.0.jar ${root}/pz-search-query.jar
     """
   }
 
